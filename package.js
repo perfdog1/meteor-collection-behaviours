@@ -2,7 +2,7 @@ Package.describe({
   git: 'https://github.com/rodcope1/meteor-collection-behaviours.git',
   name: 'rodcope1:collection-behaviours',
   summary: 'Define and attach behaviours to collections',
-  version: '2.0.1'
+  version: '3.0.0'
 });
 
 Package.onUse(function(api) {
@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   api.use([
     'check',
     'coffeescript@2.0.0',
-    'mongo'
+    'mongo@2.0.0'
   ]);
 
   api.addFiles([
