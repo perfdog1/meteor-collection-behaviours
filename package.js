@@ -1,12 +1,12 @@
 Package.describe({
-  git: 'https://github.com/rodcope1/meteor-collection-behaviours.git',
-  name: 'rodcope1:collection-behaviours',
+  git: 'https://github.com/perfdog1/meteor-collection-behaviours.git',
+  name: 'perfdog1:collection-behaviours',
   summary: 'Define and attach behaviours to collections',
-  version: '3.0.0'
+  version: '3.0.1'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('3.0.0');
+  api.versionsFrom('3.0.1');
 
   api.use([
     'check',
